@@ -8,8 +8,10 @@ Abaixo está o Diagrama Entidade-Relacionamento (DER) que representa a estrutura
 
 ```mermaid
 erDiagram
-Usuário ||--o{ Torneio : "se inscreve no torneio"
+Usuário ||--o{ Jogador : "se inscreve/cria uma equipe"
 Usuário ||--o{ Moderador : "cria o torneio"
+Jogador ||--o{ Torneio : "se inscreve no torneio"
+Moderador ||--o{ Torneio : "administra o torneio"
 Usuário {
 string id PK "Gerado automaticamente"
 string nome
@@ -18,12 +20,11 @@ string senha
 string equipe "Se registra/cria"
 string torneio "Se registra/cria"
 }
-Torneio {
+Jogador{
 string id PK
-string equipe "Nome da equipe"
-string jogo
-string horário "Hora do começo/fim do torneio"
-string posição "Colocação da equipe nas chaves"
+string usuário
+string equipe "Equipe selecionada/registrada"
+string conta 
 }
 Moderador {
 string id PK
@@ -32,4 +33,16 @@ string chaves "Tipos de chaves do sistema para o jogo escolhido"
 string descrição
 string regulamento
 }
+Torneio {
+string id PK
+string equipes "Nome da equipes"
+string jogo
+string horário "Hora do começo/fim do torneio"
+string posição "Colocação da equipe nas chaves"
+}
+```
+## 2. Dicionário de Dados
 
+Breve explicação das tabelas principais:
+
+- **Usuário:** Responsável pelo registro de equipes, pela criação ou participação de torneios podendo
