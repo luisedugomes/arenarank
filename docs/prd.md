@@ -1,13 +1,17 @@
-## 🧠 💡 1 - Visão Geral
+# 🎮 ArenaRank - Product Requirements Document (PRD)
+
+## 📄1. Visão Geral e Objetivo
 
 A ArenaRank é umma plataforma web onde jogadores amadores/semi-profissionais podem criar torneios, se inscrever em campeonatos, montar times e acompanhar rankings de equipes/jogadores;
 
 A plataforma terá foco em jogos populares como LoL, Valorant e CS.
 
-## 🎭 2 - Atores do Sistema
+## 🎭 2. Atores do Sistema
 
-## - Jogador (Usuário Comum);
-  O que faz:
+- **Visitante:** Usuário não autenticado que acessa a página inicial e visualiza a interface principal da plataforma;
+- **Jogador:** Usuário autenticado que pode criar ou participar de equipes (caso o jogador seje criador/líder do seu time, ele poderá inscrever os mesmos em campeonatos;
+- **Moderador (Função alternativa do usuário autenticado):** Pode criar torneios e manipular os seus formatos;
+- **ArenaRank (Sistema):** Ator ínvisível que permite que os torneios sejam criados
 
 Criar conta / login
 Editar perfil
