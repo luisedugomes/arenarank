@@ -20,10 +20,9 @@ Para entender as regras de negócio, o escopo e a arquitetura técnica da aplica
 
  ## 💻 Tecnologias e Dependências
 
-- **Framework CSS:** MaterializeCSS
+- **Framework CSS:** Bootstrap
 - **JavaScript:**
-  - **JQuery** - Para realizar animações e manipulação do DOM.
-  - **JSON Server** - Para simular uma API REST.
+  - **Node.js** - Para conseguir utilizar uma mesma linguagem (JavaScript) no back-end e no front-end;
 
 ## ✅ Checklist | Indicadores de Desempenho (ID) dos Resultados de Aprendizagem (RA)
 
