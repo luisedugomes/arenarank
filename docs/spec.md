@@ -60,3 +60,6 @@ Breve explicação das tabelas principais:
   - Equipes: Nomes das equipes registradas
   - Horário: Impressão de data e horário do começo do torneio.
   - Posição: Colocamento das equipes dentro da chave.
+
+## 3. Técnologias
+- **Framework:** bootstrap v5.3.8
