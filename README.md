@@ -23,6 +23,7 @@ Para entender as regras de negócio, o escopo e a arquitetura técnica da aplica
 - **Framework CSS:** Bootstrap
 - **JavaScript:**
   - **Node.js** - Para conseguir utilizar uma mesma linguagem (JavaScript) no back-end e no front-end;
+- **API:Challengermode** - Consiste na transferência de dados das funcionalidades necessárias para a criação e manipulação dos torneios;
 
 ## ✅ Checklist | Indicadores de Desempenho (ID) dos Resultados de Aprendizagem (RA)
 
